@@ -22,7 +22,7 @@
 
         fireChanged() {
             console.log("OnClick Triggered");
-			let url = 'https://example.com';
+			let url = 'https://fna-euspk07-wafp-dev-sac.azurewebsites.net/api/HelloWorld?code=qPQSgAq3BJ8mA1IczLy17QDRtmYHCPNMQqzq5NERFfdzAzFuvMLJyw==&name=Filip';
 
 			fetch(url)
 			.then(res => res.json())
